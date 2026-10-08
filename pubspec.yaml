@@ -19,7 +19,7 @@ dependencies:
     path: ./notification_listener_service-0.3.4
 
   audioplayers: ^6.5.0
-  file_picker: ^11.0.2
+  file_picker: ^13.1.0
   flutter_local_notifications: ^19.5.0
   installed_apps: ^1.6.0
   myket_iap: ^1.1.10
