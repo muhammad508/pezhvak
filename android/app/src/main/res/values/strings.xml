@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    User-facing strings of the native side (notifications and diagnostics entries).
+    The app is Persian-only, so Persian is the default and only locale. Keys are English.
+-->
+<resources>
+    <string name="app_display_name">پژواک</string>
+
+    <!-- Foreground service -->
+    <string name="fg_channel_name">سرویس پایش</string>
+    <string name="fg_title">سرویس فعال</string>
+    <string name="fg_text">برنامه در حال بررسی نوتیفیکیشن‌ها است.</string>
+
+    <!-- Test alarm -->
+    <string name="test_alarm_title">آلارم آزمایشی</string>
+    <string name="test_alarm_text">اگر این صفحه را می‌بینید و صدا پخش می‌شود، آلارم درست کار می‌کند ✅</string>
+
+    <!-- Service-health alerts (ServiceWatchdog) -->
+    <string name="alert_channel_name">هشدار توقف سرویس</string>
+    <string name="alert_channel_description">وقتی پایش نوتیفیکیشن‌ها متوقف شود به شما خبر می‌دهد</string>
+    <string name="alert_access_revoked_title">دسترسی خواندن اعلان‌ها قطع شده</string>
+    <string name="alert_access_revoked_text">پژواک بدون این دسترسی نمی‌تواند آلارم بزند. برای فعال کردن دوباره بزنید.</string>
+    <string name="alert_stopped_title">پایش نوتیفیکیشن‌ها متوقف شده</string>
+    <string name="alert_stopped_text">تا فعال شدن دوباره، آلارم‌ها کار نمی‌کنند. برای بازیابی، برنامه را باز کنید.</string>
+
+    <!-- Daily summary -->
+    <string name="summary_channel_name">خلاصه‌ی روزانه</string>
+    <string name="summary_channel_description">گزارش کوتاه شبانه از کارکرد پژواک</string>
+    <string name="summary_title">خلاصه‌ی امروز پژواک</string>
+    <string name="summary_text">امروز %1$d نوتیفیکیشن بررسی شد و %2$d آلارم زد.</string>
+    <string name="summary_listener_down">⚠️ پایش نوتیفیکیشن‌ها الان قطع است؛ برنامه را باز کنید.</string>
+
+    <!-- Silent matches -->
+    <string name="silent_channel_name">موارد بی‌صدا</string>
+    <string name="silent_channel_description">نوتیفیکیشن‌هایی که با قانون «بی‌صدا» جور شدند</string>
+    <string name="silent_unknown_app">یک برنامه</string>
+    <string name="silent_text_hidden">متن نوتیفیکیشن مخفی است</string>
+
+    <!-- Diagnostics log entries (shown on the stability report screen) -->
+    <string name="diag_crash_title">کرش برنامه (%1$s)</string>
+    <string name="diag_exit_title">پروسه بسته شد: %1$s</string>
+    <string name="diag_fgs_timeout">تایم‌اوت سرویس پیش‌زمینه</string>
+    <string name="diag_listener_disconnected">اتصال لیسنر نوتیفیکیشن قطع شد</string>
+    <string name="diag_listener_disconnected_detail">تلاش برای rebind انجام شد.</string>
+    <string name="diag_listener_manual_rebind">درخواست دستی اتصال مجدد لیسنر</string>
+    <string name="diag_watchdog_down">لیسنر بیش از %1$d دقیقه قطع بود</string>
+    <string name="diag_watchdog_detail">rebind اجباری انجام شد و به کاربر هشدار داده شد.</string>
+    <string name="diag_error_processing">خطا در پردازش نوتیفیکیشن</string>
+    <string name="diag_error_open_alarm">باز کردن صفحه‌ی آلارم ناموفق بود</string>
+    <string name="diag_error_scheduled_action">خطا در %1$s</string>
+</resources>

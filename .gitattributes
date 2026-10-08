@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# Windows batch files need CRLF line endings.
+*.bat text eol=crlf
+
+*.jks binary
+*.keystore binary
+*.mp3 binary
+*.png binary
+*.jar binary

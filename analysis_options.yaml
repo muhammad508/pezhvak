@@ -1,0 +1,16 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    # Third-party plugin vendored as-is (plus one Gradle fix).
+    - notification_listener_service-0.3.4/**
+    - build/**
+
+linter:
+  rules:
+    - always_use_package_imports
+    - avoid_print
+    - directives_ordering
+    - prefer_final_locals
+    - prefer_single_quotes
+    - unnecessary_lambdas

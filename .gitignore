@@ -1,0 +1,60 @@
+# ── Secrets: never commit these ──────────────────────────────────────────────
+# Release signing
+key.properties
+**/key.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+# Build-time configuration (API keys etc.)
+dart_defines.json
+.env
+.env.*
+# Services config that may contain keys
+google-services.json
+GoogleService-Info.plist
+# Local Android SDK paths
+local.properties
+**/local.properties
+
+# ── Build output and caches ──────────────────────────────────────────────────
+/build/
+**/build/
+.dart_tool/
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/doc/api/
+**/ios/Flutter/.last_build_id
+app.*.symbols
+app.*.map.json
+android/.gradle/
+android/.kotlin/
+android/captures/
+android/app/debug
+android/app/profile
+android/app/release
+**/Pods/
+**/ephemeral/
+
+# ── IDEs and tooling ─────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.claude/
+.atom/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# ── OS / misc ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.class
+*.log
+*.pyc
+*.swp
