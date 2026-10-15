@@ -18,7 +18,7 @@ dependencies:
   notification_listener_service:
     path: ./notification_listener_service-0.3.4
 
-  audioplayers: ^6.5.0
+  audioplayers: ^6.8.1
   file_picker: ^11.0.2
   flutter_local_notifications: ^19.5.0
   installed_apps: ^1.6.0
